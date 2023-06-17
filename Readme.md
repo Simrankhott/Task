@@ -9,7 +9,7 @@ First step its checking if the docker is installed or not.if not then its instal
 - Docker: Follow the official Docker installation instructions for your operating system.
 - Docker Compose: Refer to the Docker Compose installation guide for detailed installation instructions.
 
-## Third step
+## One step
 
 1. I tried to provide a absolute path for my docker-compose.yml for easy finding.
 
@@ -22,25 +22,25 @@ First step its checking if the docker is installed or not.if not then its instal
 5. It adds an entry to the /etc/hosts file to map the site name to localhost (127.0.0.1.)
 Finally, it provides a success message and instructs the user to open the site in a browser.
 
-## Fourth step
+## Two step
 
 1. The start_site() function is defined to start an existing site.
 2. It takes the site name as a command-line argument.
 3. It navigates to the site directory and starts the containers defined in the docker-compose.yml file using the provided site name.
 4. It provides a success message and instructs the user to open the site in a browser.
 
-## Fifth step
+## Third step
 
 1. The stop_site function() is defined to stop a running site.
 2. It stops the containers defined in the docker-compose.yml file using the provided site name.
 
-## Sixth step
+## Fourth step
 
 1. The delete_site function is defined to delete a site.
 2. It stops and removes the containers defined in the docker-compose.yml file and deletes the site directory.
 3. It removes the entry for the site from the /etc/hosts file.
 
-## Sixth step
+## Fifth step
 
 1. The script uses a case statement to parse the command-line arguments.
 2. It expects the user to provide a command (create, start, stop, delete) followed by the site name.
@@ -92,3 +92,24 @@ Finally, it provides a success message and instructs the user to open the site i
 5. The script will perform the necessary actions based on the command provided.
 
 6. After successful execution, the script will provide instructions to access the WordPress site in a web browser.
+
+
+Screenshots 
+
+<p align="center">
+  <img width="960" alt="Screenshot 2023-06-07 115444" src="https://github.com/Simrankhott/Task/assets/91006102/b8c57a85-3cd6-4ed0-8a3b-a44c79cf9c3b">
+</p>
+<br> 
+
+
+<p align="center">
+  <img width="960" alt="Screenshot 2023-06-07 115444" src="https://github.com/Simrankhott/Task/assets/91006102/430fd1fa-3c35-4465-80d2-24060b1f2220">
+</p>
+<br>
+
+
+<p align="center">
+  <img width="960" alt="Screenshot 2023-06-07 115444" src="https://github.com/Simrankhott/Task/assets/91006102/67634d8b-94aa-4803-9a0b-664d5976f971">
+</p>
+<br>
+
