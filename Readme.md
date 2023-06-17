@@ -9,7 +9,7 @@ First step its checking if the docker is installed or not.if not then its instal
 - Docker: Follow the official Docker installation instructions for your operating system.
 - Docker Compose: Refer to the Docker Compose installation guide for detailed installation instructions.
 
-## One step
+## First step
 
 1. I tried to provide a absolute path for my docker-compose.yml for easy finding.
 
@@ -22,7 +22,7 @@ First step its checking if the docker is installed or not.if not then its instal
 5. It adds an entry to the /etc/hosts file to map the site name to localhost (127.0.0.1.)
 Finally, it provides a success message and instructs the user to open the site in a browser.
 
-## Two step
+## Second step
 
 1. The start_site() function is defined to start an existing site.
 2. It takes the site name as a command-line argument.
